@@ -6,6 +6,13 @@
 #define true 1
 #define NUM_PHILS 5
 
+void init();
+void *philosopher(void *param);
+void think(int id);
+void eat(int id);
+void pickup(int i);
+void putdown(int i);
+
 enum
 {
   THINKING,
